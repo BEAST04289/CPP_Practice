@@ -1,1 +1,6 @@
 a.exe
+
+# Ignore VS Code config files
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
