@@ -1,4 +1,4 @@
-//pre processor directive(iostream naam ki file hai jiske andarcout ka logic likha hai)
+//pre processor directive(iostream naam ki file hai jiske andar cout ka logic likha hai)
 #include <iostream> 
 using namespace std;
 //main function

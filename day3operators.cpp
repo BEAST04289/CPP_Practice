@@ -1,4 +1,4 @@
-//like in maths a+b or a-b is there...so operators are +- * / % et c
+//like in maths a+b or a-b is there...so operators are +- * / % etc
 #include <iostream>
 using namespace std;    
 //ARITHMETIC OPERATORS
