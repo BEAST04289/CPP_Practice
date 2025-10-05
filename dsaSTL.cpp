@@ -374,9 +374,14 @@ void explainSort() {
     long long num = 165786578687;
     int cnt = __builtin_popcountll(num); // for long long use this
 
-    string s = "123";
-
+    string s = "123"; // 123, 132, 213, 231, 312, 321
+    sort(s.begin(), s.end());
+    
+   // if next_permutation is not possible then it will return false and convert the string to its lowest possible order ie. sorted order
+   //if number was 231 it will permute to 312 then 321 then end and convert to 123
     do {
         cout << s << endl;
     } while(next_permutation(s.begin(), s.end()));
+    int maxi = *max_element(a, a+n);
+    int mini = *min_element(v.begin(), v.end());
 }
