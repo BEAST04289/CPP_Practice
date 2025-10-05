@@ -478,3 +478,141 @@ int n=5,i,j;
  ****  **** 
  **********
  */
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+ int main() { 
+
+int n=5,i,j;
+ for(i=0;i<n;i++){
+    for(j=0;j<n-i;j++){
+        cout<< "*" ;
+    }
+    for(j=0;j<2*i;j++){
+        cout<<" ";
+    }
+     for(j=0;j<n-i;j++){
+        cout<< "*" ;
+    }
+    cout <<endl;
+}
+for(i=1;i<=n;i++){
+    for(j=0;j<i;j++){
+        cout<< "*" ;
+    }
+    for(j=0;j<2*(n-i);j++){
+        cout<<" ";
+    }
+     for(j=0;j<i;j++){
+        cout<< "*" ;
+    }
+    cout <<endl;
+}
+return 0; 
+ }
+*/
+
+/*
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+
+*/
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+ int main() {
+    int n=5,i,j;
+ for(i=1;i<=n;i++){
+    for(j=1;j<=i;j++){
+        cout<< "*" ;
+    }
+    for(j=0;j<2*(n-i);j++){
+        cout<<" ";
+    }
+     for(j=0;j<i;j++){
+        cout<< "*" ;
+    }
+    cout <<endl;
+}
+for(i=1;i<=n-1;i++){
+    for(j=4;j>=i;j--){
+        cout<< "*" ;
+    }
+ for(j=0;j<2*i;j++){
+        cout<<" ";
+     }
+     for(j=4;j>=i;j--){
+        cout<< "*" ;
+    }
+    cout <<endl;
+}
+return 0; 
+ }
+ */
+
+/*
+ ****
+ *  *
+ *  *
+ ****
+*/ 
+
+/*
+#include <bits/stdc++.h>
+using namespace std;    
+
+ int main() {
+int n=10,i,j;
+ for(i=0;i<n;i++){
+    for(j=0;j<n;j++){
+        if(i==0 || j==0 || i==n-1 || j==n-1){
+            cout<< "*" ;
+        }
+        else{
+            cout<<" ";
+        }
+    }
+    cout <<endl;
+ }
+    return 0;
+ }
+    */
+
+    /*
+    4 4 4 4 4 4 4 
+    4 3 3 3 3 3 4
+    4 3 2 2 2 3 4
+    4 3 2 1 2 3 4
+    4 3 2 2 2 3 4
+    4 3 3 3 3 3 4
+    4 4 4 4 4 4 4 
+    
+    */
+   /*
+   #include <bits/stdc++.h>
+using namespace std;
+
+ int main() {  
+    int n=4;
+    for(int i=0;i<2*n-1;i++){
+        for(int j=0;j<2*n-1;j++){
+            int top=i;
+            int left=j;
+            int right=(2*n-2)-j;
+            int bottom=(2*n-2)-i;
+            cout<< n - min(min(top,bottom),min(left,right)) << " ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+    */
