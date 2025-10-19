@@ -8,14 +8,12 @@ then it will store only int value for other places as well
 4.its linear(straight line structure)*/
 
 #include <iostream>
-using namespace std;
+using namespace std;   
 
 int main() {
-        int size = 10;
-    int marks [size] = {1,3,5,8,3};
-for(int i=0; i < size ;i++){
-    cin>>marks[i];
-}
+    int size=5;
+    int marks [size] = {2,4,5,6,6};
+
 // double price [] = {2,3,4,5,30.00};
 // array positions starts from 0 - size-1
 for(int i=0; i < size ;i++){
